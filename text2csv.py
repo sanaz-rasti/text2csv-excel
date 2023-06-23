@@ -6,7 +6,7 @@ def txt2csv(filename):
         contents = f.readlines()
     
     lst = []
-    for l in contents:
+    for l in contents:  
         lst.append(l)
     
     datacontent = {'docs': lst}
